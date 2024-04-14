@@ -1,0 +1,12 @@
+STA 126
+TCP 58271
+
+
+DO_REG  1 4800  0  0      1     0  DO  @Signalzauklju?enje 2
+HR_INT  1 3500  0  0   4095  1200  AO  @Napajanjeprvogmotora 4
+HR_INT  1 3501  0  0   4095  1200  AO  @Napajanjedrugogmotora 4
+HR_INT  1 3502  0  0   4095  1200  AO  @Napajanjetre?egmotora 4
+HR_INT  1 3503  0  0   4095  1200  AO  @Napajanje?etvrtogmotora 4
+IN_REG  1 3800  0  0   0000  0000  AI  @Indikatorkapacitetabaterije 4
+IN_REG  1 3801  0  0   0000  0000  AI  @Vrednostprvogsenzoradaljine 4
+IN_REG  1 3802  0  0   0000  0000  AI  @Vrednostdrugogsenzoradaljine 4
